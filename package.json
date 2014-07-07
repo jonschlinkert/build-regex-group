@@ -1,0 +1,54 @@
+{
+  "name": "build-regex-group",
+  "description": "Build regular expression groups from arrays of strings. Useful when you need to automatically generate RegExp patterns.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/build-regex-group",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/build-regex-group.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/build-regex-group/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/build-regex-group/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "array",
+    "exec",
+    "expression",
+    "find",
+    "group",
+    "match",
+    "matches",
+    "pattern",
+    "patterns",
+    "re",
+    "regex",
+    "regular",
+    "replace",
+    "replacement"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "verb": ">= 0.2.6",
+    "chai": ">= 1.9.1",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "arrayify-compact": "^0.1.0"
+  }
+}
